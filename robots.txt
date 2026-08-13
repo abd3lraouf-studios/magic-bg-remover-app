@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://abd3lraouf-studios.github.io/magic-bg-remover-app
+Sitemap: https://abd3lraouf-studios.github.io/magic-bg-remover-app/sitemap.xml
