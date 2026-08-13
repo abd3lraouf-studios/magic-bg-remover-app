@@ -1,6 +1,11 @@
+<p align="center">
+  <img src="assets/icon.png" alt="" width="112" height="112">
+</p>
+
 # Magic BG Remover — App
 
 **Live app:** https://abd3lraouf-studios.github.io/magic-bg-remover-app/
+**Product page:** https://abd3lraouf.dev/work/magic-bg-remover/
 
 Offline-first, privacy-preserving AI background remover that runs **entirely in your browser** — no uploads, no accounts, no server. Installable as a PWA and fully functional offline after the first visit.
 
