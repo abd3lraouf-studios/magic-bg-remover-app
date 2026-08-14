@@ -227,6 +227,14 @@
       "note": "PNG",
       "width": 512,
       "height": 512
+    },
+    {
+      "role": "screenshot",
+      "file": "magic-bg-remover-shot.png",
+      "label": "App screenshot",
+      "note": "PNG",
+      "width": 1600,
+      "height": 656
     }
   ]
 }
