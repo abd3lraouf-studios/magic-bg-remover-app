@@ -80,8 +80,8 @@
     "sections": [
       {
         "kind": "features",
-        "lift": "none of them upload.",
         "heading": "Three ways to cut a background out",
+        "lift": "none of them upload.",
         "items": [
           {
             "icon": "sparkle",
@@ -112,8 +112,8 @@
       },
       {
         "kind": "table",
-        "lift": "nowhere at all.",
         "heading": "Where the image goes",
+        "lift": "nowhere at all.",
         "columns": [
           "Compared on",
           "Magic BG Remover",
@@ -150,8 +150,8 @@
       },
       {
         "kind": "steps",
-        "lift": "without leaving the tab.",
         "heading": "From photo to cutout",
+        "lift": "without leaving the tab.",
         "intro": "Three paths in, one comparison, one export.",
         "steps": [
           {
