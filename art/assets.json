@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "product": {
     "slug": "magic-bg-remover",
     "name": "Magic BG Remover",
@@ -29,6 +29,126 @@
     "short": "Magic BG Remover is a free AI background remover that runs entirely in the browser — the image never leaves the tab.",
     "long": "Magic BG Remover strips backgrounds from images using a model that runs inside the browser tab, so the image is loaded, processed and downloaded without ever leaving the device. It installs as a PWA and works offline after first load.",
     "naming": "Written \"Magic BG Remover\" — \"BG\" always uppercase, never \"Magic Background Remover\"."
+  },
+  "theme": {
+    "accent": "219 64% 44%"
+  },
+  "marketing": {
+    "sections": [
+      {
+        "kind": "features",
+        "heading": "Three ways to cut a background out",
+        "items": [
+          {
+            "icon": "sparkle",
+            "title": "On-device AI segmentation",
+            "body": "The model runs in the tab, on your GPU, and handles photos and complex edges."
+          },
+          {
+            "icon": "crosshair",
+            "title": "Flood-fill and transparent-trim",
+            "body": "For the easy cases: click a solid ground away, or trim what is already separated."
+          },
+          {
+            "icon": "globe",
+            "title": "Installs and works offline",
+            "body": "A PWA that keeps working with no connection after the first visit."
+          },
+          {
+            "icon": "download-simple",
+            "title": "Exports worth keeping",
+            "body": "OxiPNG (lossless), WebP and AVIF, with a live size preview before you commit."
+          },
+          {
+            "icon": "cpu",
+            "title": "Nothing upstream",
+            "body": "No uploads, no accounts, no server. The tab is the whole pipeline."
+          }
+        ]
+      },
+      {
+        "kind": "table",
+        "heading": "Where the image goes",
+        "columns": [
+          "Compared on",
+          "Magic BG Remover",
+          "A typical online remover"
+        ],
+        "rows": [
+          [
+            "Image processed on",
+            "your device",
+            "their server"
+          ],
+          [
+            "Works offline",
+            "yes",
+            "no"
+          ],
+          [
+            "Account required",
+            "no",
+            "often"
+          ],
+          [
+            "Watermarks",
+            "none",
+            "on the free tier"
+          ],
+          [
+            "Export formats",
+            "PNG, WebP, AVIF",
+            "PNG, JPEG"
+          ]
+        ],
+        "highlight": 1
+      },
+      {
+        "kind": "steps",
+        "heading": "From photo to cutout",
+        "intro": "Three paths in, one comparison, one export.",
+        "steps": [
+          {
+            "title": "Drop or paste the image",
+            "body": "It opens in the tab. Nothing is sent anywhere — check the network tab if you like."
+          },
+          {
+            "title": "Pick the path that fits",
+            "body": "AI segmentation for photos, flood-fill for solid grounds, transparent-trim for what is already separated."
+          },
+          {
+            "title": "Compare before and after",
+            "body": "The slider shows the two side by side, with studio background colours if you want a ground instead of transparency."
+          },
+          {
+            "title": "Export at the size you choose",
+            "body": "OxiPNG for lossless, WebP or AVIF for weight — with the size preview live as you switch."
+          }
+        ]
+      },
+      {
+        "kind": "faq",
+        "heading": "Questions",
+        "items": [
+          {
+            "q": "Does my image get uploaded?",
+            "a": "No. The model runs in the tab on your device; there is no server to upload to. The app keeps working with the network off."
+          },
+          {
+            "q": "What does it cost?",
+            "a": "Nothing. Free, no account, no watermark."
+          },
+          {
+            "q": "Which browsers?",
+            "a": "Modern Chromium, Firefox and Safari — anything that runs WebGPU/WASM inference. The installable PWA works offline after the first load."
+          },
+          {
+            "q": "What is OxiPNG?",
+            "a": "A lossless PNG optimizer. The export runs it for you, so a transparent cutout comes out as small as it can be without losing a pixel."
+          }
+        ]
+      }
+    ]
   },
   "assets": [
     {
