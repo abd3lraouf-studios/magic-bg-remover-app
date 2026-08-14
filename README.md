@@ -17,4 +17,8 @@ This repository hosts the **deployed static build** (published to the `gh-pages`
 - Best-in-class export: OxiPNG (lossless), WebP, and AVIF with a live size preview.
 - 100% on-device — your images never leave your machine.
 
+## Press & marketing assets
+
+Canonical marketing text, links, and the indexed icon artwork (256px, 512px, vector) live in [`art/assets.json`](art/assets.json), with the image files beside it in `art/`. For the full press kit, see the product page: https://abd3lraouf.dev/work/magic-bg-remover/.
+
 _Built by abd3lraouf-studios._

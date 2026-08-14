@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "product": {
+    "slug": "magic-bg-remover",
+    "name": "Magic BG Remover",
+    "category": "app",
+    "headline": {
+      "lead": "AI",
+      "lift": "background remover",
+      "trail": "in your browser"
+    },
+    "tagline": "instant cutouts, right in the tab",
+    "summary": "Removes image backgrounds entirely in the browser. The image never leaves the tab.",
+    "platform": "Any modern browser · installable PWA",
+    "licence": {
+      "label": "Free",
+      "kind": "free",
+      "price": "Free"
+    },
+    "distribution": "Web, installable as a PWA",
+    "openSource": false,
+    "mono": null
+  },
+  "links": {
+    "repo": "https://github.com/abd3lraouf-studios/magic-bg-remover-app",
+    "website": "https://abd3lraouf.dev/work/magic-bg-remover/"
+  },
+  "press": {
+    "short": "Magic BG Remover is a free AI background remover that runs entirely in the browser — the image never leaves the tab.",
+    "long": "Magic BG Remover strips backgrounds from images using a model that runs inside the browser tab, so the image is loaded, processed and downloaded without ever leaving the device. It installs as a PWA and works offline after first load.",
+    "naming": "Written \"Magic BG Remover\" — \"BG\" always uppercase, never \"Magic Background Remover\"."
+  },
+  "assets": [
+    {
+      "role": "icon-card",
+      "file": "magic-bg-remover-icon.png",
+      "label": "App icon, 256px",
+      "note": "PNG",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "role": "icon-vector",
+      "file": "magic-bg-remover-icon.svg",
+      "label": "App icon, vector",
+      "note": "SVG",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "role": "icon-press",
+      "file": "magic-bg-remover-icon-512.png",
+      "label": "App icon, 512px",
+      "note": "PNG",
+      "width": 512,
+      "height": 512
+    }
+  ]
+}
