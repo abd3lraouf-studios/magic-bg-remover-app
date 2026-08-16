@@ -1,11 +1,23 @@
+<!-- BEGIN abd3lraouf-studios:hero -->
 <p align="center">
-  <img src="assets/icon.png" alt="" width="112" height="112">
+    <img src="art/magic-bg-remover-icon.png" alt="Magic BG Remover" height="120">
 </p>
 
-# Magic BG Remover — App
+<h1 align="center">Magic BG Remover</h1>
 
-**Live app:** https://abd3lraouf-studios.github.io/magic-bg-remover-app/
-**Product page:** https://abd3lraouf.dev/work/magic-bg-remover/
+<p align="center">
+    <strong>Removes image backgrounds entirely in the browser. The image never leaves the tab.</strong><br>
+    Any modern browser · installable PWA · Free
+</p>
+
+<p align="center">
+    <a href="https://abd3lraouf-studios.github.io/magic-bg-remover-app/"><strong>Open the app →</strong></a>
+</p>
+
+<p align="center">
+    <a href="https://abd3lraouf.dev/projects/magic-bg-remover/">abd3lraouf.dev/projects/magic-bg-remover/</a>
+</p>
+<!-- END abd3lraouf-studios:hero -->
 
 Offline-first, privacy-preserving AI background remover that runs **entirely in your browser** — no uploads, no accounts, no server. Installable as a PWA and fully functional offline after the first visit.
 
@@ -17,8 +29,15 @@ This repository hosts the **deployed static build** (published to the `gh-pages`
 - Best-in-class export: OxiPNG (lossless), WebP, and AVIF with a live size preview.
 - 100% on-device — your images never leave your machine.
 
+<!-- BEGIN abd3lraouf-studios:press -->
 ## Press & marketing assets
 
-Canonical marketing text, links, and the indexed icon artwork (256px, 512px, vector) live in [`art/assets.json`](art/assets.json), with the image files beside it in `art/`. For the full press kit, see the product page: https://abd3lraouf.dev/work/magic-bg-remover/.
+Magic BG Remover is a free AI background remover that runs entirely in the browser — the image never leaves the tab.
+
+**Naming.** Written "Magic BG Remover" — "BG" always uppercase, never "Magic Background Remover".
+
+The press kit — icons, screen art, boilerplate, the fact sheet and a downloadable
+archive — is at **[abd3lraouf.dev/press/magic-bg-remover/](https://abd3lraouf.dev/press/magic-bg-remover/)**.
+<!-- END abd3lraouf-studios:press -->
 
 _Built by abd3lraouf-studios._
